@@ -40,10 +40,16 @@ public class MainActivity2 extends BaseActivity implements OnCheckedChangeListen
 	protected void onCreate(Bundle savedInstanceState) {
 		setContentView(R.layout.activity_main2);
 		super.onCreate(savedInstanceState);
+		initHaha();
 
 
 	}
 	
+	private void initHaha() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	public void initView() {
 		mViewPager = (ViewPager) findViewById(R.id.viewpager);
 		
