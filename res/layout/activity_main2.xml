@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|bottom"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <com.ct.ct_news_weight.NoScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1" >
+    </com.ct.ct_news_weight.NoScrollViewPager>
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#879876"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/btn_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/radiobutton_color"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center"
+            android:text="按钮1" />
+
+        <RadioButton
+            android:id="@+id/btn_two"
+             android:textColor="@drawable/radiobutton_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center"
+            android:text="按钮2" />
+
+        <RadioButton
+            android:id="@+id/btn_three"
+             android:textColor="@drawable/radiobutton_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center"
+            android:text="按钮3" />
+
+        <RadioButton
+            android:id="@+id/btn_four"
+             android:textColor="@drawable/radiobutton_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_launcher"
+            android:gravity="center"
+            android:text="按钮4" />
+    </RadioGroup>
+
+</LinearLayout>
